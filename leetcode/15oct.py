@@ -18,7 +18,6 @@ import math
 
 nums , sums = map(int,input().split())
 
-flag = True 
 ans = ""
 
 if sums <= 9 :
