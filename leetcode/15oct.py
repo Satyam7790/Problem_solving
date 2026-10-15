@@ -1,4 +1,7 @@
 import math 
+# day :15 oct
+# ques name : Maximize Sum of Squares of Digits
+
 # some things ive deduced :
 # if u have a number n and u want minimum number of places of a number say x needed such 
 # that sum of all digits of x sums to n , then that would be ceil(n/9) ;
@@ -11,7 +14,7 @@ import math
 # for example num = 2 and sum = 5 
 # so there are only two places and sum of those two places should be 5 
 # for our number to be max our last digit (first from left(i forgot :)) shoudl be max 
-# so at first well place max number possible , it would be 9 for sums > 9 
+# so at first well place max number possible , it would be 9 for sums > 9 , then add the leftout numbers 
 
 nums , sums = map(int,input().split())
 
