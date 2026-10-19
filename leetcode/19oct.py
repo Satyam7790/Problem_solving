@@ -8,9 +8,3 @@ for i in range(len(nums)):
         ans.append(i)
 print(ans)
 
-
-# arr = [1,2,3,4,5]
-# a = map(str,arr)
-
-# b = list(a)
-# print(b)
