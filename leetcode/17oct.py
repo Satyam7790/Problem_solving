@@ -40,15 +40,9 @@ print(swap)
 # if l == b :
 #     swap = 0
 
-for j in range(len(nums)):
+# for j in range(len(nums)):
 
 
 
 
 # logic is brute force n max swao isnt wrong ;)
-
-
-
-
-
-        
