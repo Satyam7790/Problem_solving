@@ -4,7 +4,38 @@
 # though that feels very greedy .
 
 
+# arr = [1,2,3,4,5]
+
+# def backtrack(arr):
+#     ans = []
+#     def haha(i):
+#         nonlocal ans 
+#         if i >= len(arr):
+#             print(ans)
+#             return 
+#         ans.append(arr[i])
+#         haha(i+1)
+#         ans.pop()
+#         haha(i+1)
+#     haha(0)
+#     return ans 
+# backtrack(arr)
+
+
+
+
+
+
+
 arr = [1,2,3,4,5]
+
+# def backtrack(arr,i):
+#     if i >= len(arr):
+#         print(arr)
+#         return 
+    
+#     backtrack(arr,i+1)
+# backtrack(arr,0)
 
 def backtrack(arr):
     ans = []
@@ -18,5 +49,26 @@ def backtrack(arr):
         ans.pop()
         haha(i+1)
     haha(0)
-    return ans 
+    return ans
+
 backtrack(arr)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
