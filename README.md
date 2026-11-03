@@ -1,2 +1,2 @@
 # Problem_solving
-Maintaining dsa progress , currently saving my daily leetcode problem solutions 
+Maintaining dsa progress , currently saving my daily leetcode problem approaches
