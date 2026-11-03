@@ -15,8 +15,6 @@ k = int(input())
 #     haha(0,0)
 # rec(n)
 
-
-
 def rec(n):
     global matrix 
     island = 0
@@ -51,7 +49,7 @@ def rec(n):
             if (matrix[i][j] + matrix[i+1][j]) % k == 0 :
                 island += 1
 
-        if i +1 < len(matric[0]):
+        if i +1 < len(matrix[0]):
             matrix[i][j] = matrix[j][i]
             return 
         else :
