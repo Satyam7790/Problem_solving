@@ -21,4 +21,5 @@ def ans(nums):
     return min(add(nums),mid(nums))
 print(ans(nums))
 
+
     
