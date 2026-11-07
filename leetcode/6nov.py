@@ -1,7 +1,7 @@
 n = 3
-logs = [[1,3],[2,6],[1,5]] 
-x = 5
-queries = [10,11]
+logs = [[2,4],[2,1],[1,2],[3,1]]
+x = 2
+queries = [3,4]
 checker = 0
 final_ans = []
 full_cnt = n
@@ -17,7 +17,7 @@ for i in range(len(queries)):
     for j in range(len(logs)):
         if logs[j][0] not in actual_cnt_array :
             actual_cnt_array.append(logs[j][0])
-            actual_cnt += 1
+            actual_cnt += 1      
         if (logs[j][1] < checker or logs[j][1] > queries[i]) and truth[logs[j][0]] == True :
             continue
         if (logs[j][1] >= checker or logs[j][1] <= queries[i]) and truth[logs[j][0]] == True :
@@ -25,6 +25,8 @@ for i in range(len(queries)):
         if (logs[j][1] < checker or logs[j][1] > queries[i]) and truth[logs[j][0]] == False :
             truth[logs[j][0]] = True
             ans += 1
+        if (logs[j][1] >= checker or logs[j][1] <= queries[i]) and truth[logs[j][0]] == False :
+            truth[logs[j][0]] = True 
 
     m = (n-actual_cnt) + ans 
     final_ans.append(m)
