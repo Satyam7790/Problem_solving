@@ -32,7 +32,6 @@
 #     final_ans.append(m)
 
 # print(final_ans)
-
 # rather than checking for valid soln checking for invalid ids then subtracting from full will also giev the correct ids 
 
 
@@ -52,7 +51,7 @@ for i in range(len(queries)):
     checker = queries[i] - x 
     truth = [False] * len(logs)
     m = 0
-    
+
     for j in range(len(logs)):
         if logs[j][0] not in actual_cnt_array:
             actual_cnt_array.append(logs[j][0])
