@@ -52,8 +52,7 @@ for i in range(len(queries)):
     checker = queries[i] - x 
     truth = [False] * len(logs)
     m = 0
-
-
+    
     for j in range(len(logs)):
         if logs[j][0] not in actual_cnt_array:
             actual_cnt_array.append(logs[j][0])
